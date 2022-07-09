@@ -1,0 +1,78 @@
+.conteudo{
+    max-width: 1200px;
+    padding: 30px 20px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: center;
+    box-sizing: border-box;
+}
+.chef-img{
+    display: grid;
+    grid-column: 1/2;
+}
+.chef-img img{
+    display: block;
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.text-1{
+    display: grid;
+    grid-column: 2/3;
+}
+.text-1 h1{
+    color: goldenrod;
+    margin-bottom: 30px;
+}
+ul{
+    color: gold;
+}
+.cardapio{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    gap: 20px;
+    align-items: center;
+    padding: 20px 30px;
+    box-sizing: border-box;
+}
+.cardapio h2{
+    margin-top: 50px;
+    color: goldenrod;
+}
+.lista-cardapio li{
+    margin-bottom: 15px;
+}
+.fotos{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.fotos img{
+    display: block;
+    width: 400px;
+    height: 300px;
+    border-radius: 5px;
+}
+
+@media (max-width: 800px){
+    .conteudo{
+        gap: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    .chef-img{
+        display: block;
+    }
+}
+
+@media (max-width: 800px){
+    
+    .fotos{
+       display: flex;
+       flex-direction: column;
+       margin: 0 auto;
+    }
+}

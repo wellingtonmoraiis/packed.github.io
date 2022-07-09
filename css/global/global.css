@@ -1,0 +1,27 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(61, 60, 60);
+    margin: 0px;
+}
+p{
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    color: #ccc;
+}
+h1, h2, h3, p{
+    margin: 0px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+img{
+    display: block;
+    max-width: 100%;
+    object-fit: cover;
+}

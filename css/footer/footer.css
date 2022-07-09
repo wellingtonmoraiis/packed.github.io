@@ -1,0 +1,33 @@
+.contato-bg{
+    background-color: #141414;
+}
+.footer-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 40px 20px;
+}
+.footer-container a{
+    text-align: center;
+    display: inline-block;
+}
+.footer-conteudo{
+    display: flex;
+    justify-content: space-between;
+}
+.footer p{
+    color: gold;
+    line-height: 1.5;
+}
+
+@media (max-width: 800px){
+    .footer-conteudo{
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+    }
+    .footer-container a{
+        margin-top: 20px;
+    }
+}

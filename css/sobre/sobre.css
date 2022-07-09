@@ -1,0 +1,22 @@
+.sobre-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 30px;
+    align-items: center;
+    box-sizing: border-box;
+}
+.sobre-container p{
+    line-height: 1.5;
+}
+.sobre-container h2{
+    
+    color: goldenrod;
+}
+
+@media (max-width: 800px){
+    .sobre-container{
+        padding-top: 40px;
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+}
