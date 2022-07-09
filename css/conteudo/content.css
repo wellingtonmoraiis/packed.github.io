@@ -23,11 +23,11 @@
     grid-column: 2/3;
 }
 .text-1 h1{
-    color: goldenrod;
+    color: #daa520;
     margin-bottom: 30px;
 }
 ul{
-    color: gold;
+    color: #ffd700;
 }
 .cardapio{
     max-width: 1200px;
@@ -40,7 +40,7 @@ ul{
 }
 .cardapio h2{
     margin-top: 50px;
-    color: goldenrod;
+    color: #daa520;
 }
 .lista-cardapio li{
     margin-bottom: 15px;
