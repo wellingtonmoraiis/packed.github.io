@@ -79,7 +79,7 @@
         position: absolute;
         width: 100%;
         top: 110px;
-        right: 0;
+        
         height: 0;
         transition: .6s;
         z-index: 1000;
