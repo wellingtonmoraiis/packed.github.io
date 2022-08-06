@@ -2,6 +2,9 @@
     display: none;
 
 }
+.header-bg{
+    background-color: #ccc;
+}
 
 .header-container{
     max-width: 1200px;
@@ -28,7 +31,7 @@
     display: block;
 }
 .menu-header a:hover{
-    color: #daa520;
+    color: #fb8b24;
 }
 
 @media (max-width: 800px){
@@ -87,12 +90,12 @@
         overflow-y: hidden;
     }
     .menu-header a{
-        color: #daa520;
+        color: #fb8b24;
         font-weight: bold;
         border-bottom: 2px solid rgba(0, 0, 0, .05);
     }
     .menu-header a:hover{
-        color: #000000;
+        color: none;
     }
     #nav.active .menu-header{
         height: calc(100vh - 110px);
