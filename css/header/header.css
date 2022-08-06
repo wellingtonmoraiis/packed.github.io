@@ -81,8 +81,7 @@
         display: block;
         position: absolute;
         width: 100%;
-        top: 110px;
-        
+        top: 70px;
         height: 0;
         transition: .6s;
         z-index: 1000;
@@ -91,6 +90,7 @@
     }
     .menu-header a{
         color: #fb8b24;
+        background-color: #ccc;
         font-weight: bold;
         border-bottom: 2px solid rgba(0, 0, 0, .05);
     }
