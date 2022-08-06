@@ -1,4 +1,7 @@
+#btn-mobile{
+    display: none;
 
+}
 
 .header-container{
     max-width: 1200px;
@@ -32,15 +35,78 @@
     .header-container{
         justify-content: center;
     }
-    .header-container img{
-        display: none;
-    }
     .menu-header{
         gap: 20px;
     }
+   
 }
 @media (max-width: 800px){
     .menu-header{
         gap: 10px;
+    }
+}
+@media (max-width: 600px){
+    .header-container img{
+        display: block;
+        margin-right: 50px;
+    }
+    #btn-mobile{
+        display: flex;
+        padding: .5rem 1rem;
+        font-size: 1rem;
+        border: none;
+        background: none;
+        cursor: pointer;
+        gap: .5rem;
+    }
+    #hamburguer{
+        border-top: 2px solid;
+        width: 20px;
+        display: block;
+    }
+    #hamburguer::after, #hamburguer::before{
+        content: '';
+        display: block;
+        width: 20px;
+        height: 2px;
+        background-color: currentColor; /* usa a cor do elemento pai*/
+        margin-top: 5px;
+        transition: .3s;
+        position: relative;
+    }
+    .menu-header{
+        display: block;
+        position: absolute;
+        width: 100%;
+        top: 110px;
+        right: 0;
+        height: 0;
+        transition: .6s;
+        z-index: 1000;
+        visibility: hidden;/* esconde o menu quando botão inativo*/
+        overflow-y: hidden;
+    }
+    .menu-header a{
+        color: #daa520;
+        font-weight: bold;
+        border-bottom: 2px solid rgba(0, 0, 0, .05);
+    }
+    .menu-header a:hover{
+        color: #000000;
+    }
+    #nav.active .menu-header{
+        height: calc(100vh - 110px);
+        visibility: visible;/* quando ativo, menu fica visivel*/
+        overflow-y: auto;
+    }
+    #nav.active #hamburguer{
+        border-top-color: transparent; /*borda transparent quando ativo o menu*/
+    }
+    #nav.active #hamburguer::before{
+        transform: rotate(135deg); /* rotação do elemento em 135 graus */
+    }
+    #nav.active #hamburguer::after{
+        transform: rotate(-135deg); /* rotação negativa em 135 graus*/
+        top: -7px;
     }
 }

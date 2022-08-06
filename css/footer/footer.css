@@ -14,7 +14,7 @@
 }
 .footer-conteudo{
     display: flex;
-    justify-content: space-between;
+    gap: 20px;
 }
 .footer p{
     color: #ffd700;
@@ -23,7 +23,6 @@
 
 @media (max-width: 800px){
     .footer-conteudo{
-        flex-direction: column;
         justify-content: center;
         gap: 20px;
     }
