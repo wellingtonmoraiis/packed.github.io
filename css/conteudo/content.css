@@ -30,16 +30,16 @@
 ul{
     color: #ffd700;
 }
-.cardapio{
+.cardapio-container{
     max-width: 1200px;
     margin: 0 auto;
     display: grid;
     gap: 20px;
     align-items: center;
-    padding: 20px 30px;
+    padding: 30px 20px;
     box-sizing: border-box;
 }
-.cardapio h2{
+.cardapio-container h2{
     margin-top: 50px;
     color: #daa520;
 }
@@ -67,8 +67,8 @@ ul{
     .chef-img{
         display: block;
     }
-    .cardapio{
-        top: -5px;
+    .cardapio-container{
+        top: -35px;
         position: relative;
     }
 }

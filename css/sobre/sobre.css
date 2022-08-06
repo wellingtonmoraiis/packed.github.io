@@ -1,9 +1,11 @@
 .sobre-container{
     max-width: 1200px;
     margin: 0 auto;
-    padding: 20px 30px;
+    padding: 30px 20px;
     align-items: center;
     box-sizing: border-box;
+    display: grid;
+    gap: 20px;
 }
 .sobre-container p{
     line-height: 1.5;
@@ -11,12 +13,4 @@
 .sobre-container h2{
     
     color: #daa520;
-}
-
-@media (max-width: 800px){
-    .sobre-container{
-        padding-top: 40px;
-        margin-left: 24px;
-        margin-right: 24px;
-    }
 }
