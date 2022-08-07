@@ -1,5 +1,6 @@
 #btn-mobile{
     display: none;
+    text-transform: uppercase;
 
 }
 .header-bg{
@@ -26,9 +27,10 @@
 }
 .menu-header a{
     font-size: 1.125rem;
-    padding: 12px 24px;
+    padding: 12px 20px;
     line-height: 1.3;
     display: block;
+    text-transform: uppercase;
 }
 .menu-header a:hover{
     color: #fb8b24;
