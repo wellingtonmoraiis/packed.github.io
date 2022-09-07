@@ -16,7 +16,7 @@
      <header class="header-bg">
           <div class="header-container">
                <img src="./img/logo packed Chef.png" alt="logo" width="150px" height="50px">
-               <nav id="nav">
+               <nav id="nav" class="js-menu">
                     <button id="btn-mobile">Menu<span id="hamburguer"></span></button>
                     <ul class="menu-header">
                          <li><a href="#inicio">Início</a></li>
@@ -78,6 +78,21 @@
           </div>
      </section>
      <footer class="contato-bg" id="contato">
+          <form action="/" method="post">
+               <img src="./img/logo packed Chef.png" alt="">
+
+               <label for="nome">Nome</label>
+               <div class="formulario" id="form">
+                    <input type="text" id="nome" placeholder="Digite seu nome">
+               </div>
+
+               <label for="email">E-mail</label>
+               <div class="formulario">
+                    <input type="email" id="email" placeholder="Digite seu email">
+               </div>
+
+               <button type="submit" id="btn-enviar">Enviar</button>
+          </form>
           <div class="footer-container">
                <div class="footer-conteudo">
                     <a target="_blank" href="mailto:contato@packedchef.com.br"><img src="./img/icons8-newsletter-48.png"

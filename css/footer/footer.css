@@ -21,6 +21,46 @@
     line-height: 1.5;
 }
 
+form{
+    width: 350px;
+    height: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ffd700;
+    border-radius: 5px;
+    display: grid;
+    justify-content: center;
+    position: relative;
+    top: 30px;
+    box-sizing: border-box;
+}
+label{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffd700;
+    margin-left: 20px;
+}
+input{
+    width: 250px;
+    padding: 10px 5px;
+    border-radius: 5px;
+    border: 1px solid #141414;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 20px;
+    box-sizing: border-box;
+}
+button{
+    width: 100px;
+    margin: 5px auto;
+    line-height: 1.8;
+    border-radius: 5px;
+    border: 1px solid #ffd700;
+    background-color: #ffd700;
+    color: #141414;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 @media (max-width: 800px){
     .footer-conteudo{
         justify-content: center;
