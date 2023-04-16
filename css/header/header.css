@@ -3,7 +3,7 @@
     text-transform: uppercase;
 }
 .header-bg{
-    background-color: #ccc;
+    background-color: #3D3C3C;
 }
 
 .header-container{
@@ -32,7 +32,7 @@
     text-transform: uppercase;
 }
 .menu-header a:hover{
-    color: #fb8b24;
+    color: #DAA520;
 }
 
 @media (max-width: 800px){
