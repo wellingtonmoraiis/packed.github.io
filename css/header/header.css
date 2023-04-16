@@ -50,6 +50,9 @@
     }
 }
 @media (max-width: 600px){
+    .header-bg{
+        background-color: #ccc;
+    }
     .header-container img{
         display: block;
         margin-right: 50px;
